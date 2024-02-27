@@ -10,7 +10,7 @@ var t = setInterval(function () {
   var cal = ramadan - now;
 
   var dte = Math.floor(cal / (1000 * 60 * 60 * 24));
-  console.log(dte);
+  // console.log(dte);
 
   day.innerHTML = dte;
 
